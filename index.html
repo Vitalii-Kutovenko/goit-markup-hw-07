@@ -26,15 +26,71 @@
           <li class="item"><a class="menu-link" href="">Contacts</a></li>
         </ul>
       </nav>
+      <button type="button" class="burger-btn js-open-menu"  aria-expanded="false"
+        aria-controls="mobile-menu">
+        <svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_297068_2681)">
+          <path d="M1.34814 20.0431H30.8866M1.34814 10.7354H30.8866M1.34814 1.42773H30.8866" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_297068_2681">
+          <rect width="32" height="22" fill="white"/>
+          </clipPath>
+          </defs>
+          </svg>
+      </button>
+      </div>
       <div class="contact">
       <a class="contacts" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
+        >info@devstudio.com</a>
       <a class="contacts" href="tel:+11000111-11-11">+11 (000) 111-11-11</a>
       </div>
-    </div>
+      <div class="menu-fixed">
+      <div class="burger-menu js-menu-container" id="mobile-menu">
+        <div class=" menu-mobile">
+        <button class="modal-btn  js-close-menu" >
+          <svg class="icon-close">
+            <use href="./images/symbol-defs.svg#icon-closebtn"></use>
+          </svg>
+        </button>
+        <div class="content-burger">
+          <ul class="burger-nav list">
+            <li class="item"><a class="menu-link current" href="index.html">Studio</a></li>
+            <li class="item"><a class="menu-link" href="portfolio.html">Portfolio</a></li>
+            <li class="item"><a class="menu-link" href="">Contacts</a></li>
+          </ul>
+          <a class="contacts-tel-burger" href="tel:+11000111-11-11">+11 (000) 111-11-11</a>
+          <a class="contacts" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a>
+          <div class="burger-link">
+            <a class="burger-link-icon" href="">
+            <svg class="icon-instagram-burger">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+            </a>
+            <a class="burger-link-icon" href="">
+            <svg class="icon-twitter-burger">
+              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+            </a>
+            <a class="burger-link-icon" href="">
+              <svg class="icon-facebook-borger">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+              </a>
+              <a class="burger-link-icon" href="">
+                <svg class="icon-linkedin-burger">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+                </a>
+              </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    
     </header>
-    <main>
+    <!-- <main>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button class="modal-btn" data-modal-close>
@@ -370,7 +426,8 @@
         </div>
       </div>
     </div>
-    </footer>
+    </footer> -->
     <script src="./js/modal.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
