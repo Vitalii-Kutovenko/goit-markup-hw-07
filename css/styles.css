@@ -17,6 +17,9 @@ body {
     padding-top: 24px;
     padding-bottom: 0;
   }
+  .What-are-we-doing {
+    display: none;
+  }
   .container {
     display: flex;
     align-items: center;
@@ -307,11 +310,115 @@ body {
   .about-company {
     padding-bottom: 96px;
   }
+  .team {
+    min-width: 428px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F4F4FD;
+    
+  }
+  .containerp {
+    width: 426px;
+    display: block;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team h2 {
+    margin-top: 0;
+    margin-bottom: 96px;
+  }
+  .team-list li:not(:last-child) {
+    margin-bottom: 72px;
+  }
+  .team-list li {
+    width: 264px;
+    height: 428px;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+  }
+  .icon-link {
+    display: flex;
+    margin-top: 12px;
+    
+  }
+  .icon-instagram {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 28%;
+    fill: #fff;
+  }
+  .instagram {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    margin-left: 16px;
+  }
+  
+  .twitter {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    margin-left: 24px;
+  }
+  .icon-twitter {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 28%;
+    fill: #fff;
+  }
+  .facebook {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    margin-left: 24px;
+  }
+  .icon-facebook {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 28%;
+    fill: #fff;
+  }
+  .linkedin {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    margin-left: 24px;
+  }
+  .icon-linkedin {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 28%;
+    fill: #fff;
+  }
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .menu-fixed {
+    display: none;
+  }
+  .What-are-we-doing {
     display: none;
   }
   .container {
@@ -464,6 +571,7 @@ body {
       margin-right: 24px;
     }
     .about-item {
+      text-align: left;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -503,6 +611,7 @@ body {
       background-position: center;
     }
     .about h3 {
+      text-align: left;
       font-family: 'Roboto';
       font-weight: 700;
       font-size: 36px;
@@ -522,6 +631,116 @@ body {
       padding-top: 96px;
       padding-bottom: 96px;
     }
+    .team {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 428px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #F4F4FD;
+    }
+    .containert {
+      width: 768px;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 104px;
+    }
+    .team h2 {
+      margin-top: 0;
+      margin-top: 96px;
+      margin-bottom: 96px;
+    }
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+    .team-list li:not(:nth-child(2n)) {
+      margin-right: 24px;
+    }
+    .team-list li:not(:last-child) {
+      margin-bottom: 72px;
+    }
+    .team-list li {
+      width: 264px;
+      height: 428px;
+      background-color: #fff;
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+      border-radius: 0px 0px 4px 4px;
+      border-radius: 0px 0px 4px 4px;
+    }
+    .icon-link {
+      display: flex;
+      margin-top: 12px;
+      
+    }
+    .icon-instagram {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
+    }
+    .instagram {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 16px;
+    }
+    
+    .twitter {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 24px;
+    }
+    .icon-twitter {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
+    }
+    .facebook {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 24px;
+    }
+    .icon-facebook {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
+    }
+    .linkedin {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 24px;
+    }
+    .icon-linkedin {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
+    }
 }
 
 
@@ -529,6 +748,7 @@ body {
   .menu-fixed {
     display: none;
   }
+  
   .burger-btn {
     display: none;
   }
@@ -585,7 +805,7 @@ body {
       padding-top: 192px;
       justify-content: center;
       text-align: center;
-      max-width: 1600px;
+      max-width: 100%;
       height: 600px;
       margin-left: auto;
       margin-right: auto;
@@ -640,6 +860,171 @@ body {
       border-radius: 50%;
       cursor: pointer;
       border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .about {
+      display: flex;
+    }
+    .about li {
+      width: 264px;
+    }
+    .about-item::before {
+      display: block;
+      content: "";
+      height: 112px;
+      background-color: #f4f4fd;
+      margin-bottom: 8px;
+    }
+    .about-item:nth-child(1)::before {
+      background-image: url(../images/antenna.svg);
+      background-size: 60px 64px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .about-item:nth-child(2)::before {
+      background-image: url(../images/clock.svg);
+      background-size: 60px 64px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .about-item:nth-child(3)::before {
+      background-image: url(../images/diagram.svg);
+      background-size: 60px 64px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .about-item:nth-child(4)::before {
+      background-image: url(../images/astronaut.svg);
+      background-size: 60px 64px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .about-company {
+      background-color: #fff;
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+    .about-company h3 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.2;
+      color: var(--secondary-text-color);
+    }
+    .about-company p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--title-text-color);
+    }
+    .about li + li {
+      margin-left: 24px;
+    }
+    .container {
+      width: 1128px;
+      margin: 0 auto;
+    }
+    .team {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 428px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #F4F4FD;
+    }
+    .containert {
+      width: 768px;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 104px;
+    }
+    .team h2 {
+      margin-top: 0;
+      margin-top: 96px;
+      margin-bottom: 96px;
+    }
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+    
+    .team-list li {
+      width: 264px;
+      height: 428px;
+      background-color: #fff;
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+      border-radius: 0px 0px 4px 4px;
+      border-radius: 0px 0px 4px 4px;
+    }
+    .icon-link {
+      display: flex;
+      margin-top: 12px;
+      
+    }
+    .icon-instagram {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
+    }
+    .instagram {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 16px;
+    }
+    
+    .twitter {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 24px;
+    }
+    .icon-twitter {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
+    }
+    .facebook {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 24px;
+    }
+    .icon-facebook {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
+    }
+    .linkedin {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-color: #4d5ae5;
+      border-radius: 50%;
+      margin-left: 24px;
+    }
+    .icon-linkedin {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      margin-top: 28%;
+      fill: #fff;
     }
 }
 .list {
@@ -1076,7 +1461,7 @@ background-color: #2196f3;
   margin: 0;
   margin-bottom: 72px;
 }
-.team {
+/* .team {
   text-align: center;
   margin: 0;
   padding-top: 120px;
@@ -1148,7 +1533,7 @@ background-color: #2196f3;
   cursor: pointer;
   margin-top: 28%;
   fill: #fff;
-}
+} */
 .link-list-footer {
   display: flex;
 }
@@ -1244,7 +1629,7 @@ background-color: #2196f3;
   cursor: pointer;
   fill: #fff;
 }
-.team-list li + li {
+/* .team-list li + li {
   margin-left: 24px;
 }
 .team-list {
@@ -1281,7 +1666,7 @@ background-color: #2196f3;
   line-height: 1.2;
   color: var(--secondary-text-color);
   margin: 0;
-}
+} */
 .footer p {
   font-size: 16px;
   line-height: 1.5;
