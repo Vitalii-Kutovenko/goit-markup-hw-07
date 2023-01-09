@@ -470,6 +470,158 @@ body {
     color: #4D5AE5;
     
   }
+  .text-footer {
+    text-align: center;
+    width: 268px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer {
+    min-width: 428px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #2e2f42;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .logo-footer {
+    text-decoration: none;
+    margin-bottom: 16px;
+  }
+  .footer a {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #f4f4fd;
+  }
+  .footer p {
+    width: 264px;
+    margin-top: 16px;
+  }
+  .social-media {
+    margin-top: 72px;
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  .social-media h3{
+    margin: 0;
+    margin-bottom: 16px;
+    color: #fff;
+  }
+  .link-footer {
+    display: flex;
+  }
+  .footer-form h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #F4F4FD;
+  }
+  .footer-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 396px;
+  }
+  .footer-form form {
+    width: 250px;
+  }
+  .footer-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 396px;
+  }
+  .form-filed {
+    position: relative;
+    width: 396px;
+    margin-right: 0;
+  }
+  .form-filed input {
+    
+    width: 396px;
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  .mail-form-footer {
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: #2E2F42;
+    padding-left: 16px;
+  
+    color: #F4F4FD;
+  }
+  .mail-form-footer:focus + .label-footer,
+  .mail-form-footer:not(:placeholder-shown) + .label-footer {
+    top: -30px;
+    left: -0.5%;
+  }
+  .label-footer {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    transform: translateY(50%);
+    transition-property: top, left;
+    transition-duration: 250ms;
+    -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+  .subscribe {
+    position: relative;
+    width: 160px;
+    height: 40px;
+    background-color: var(--accent-color);
+    color: #fff;
+    font-family: 'Roboto';
+    border-radius: 4px;
+    margin-right: 0;
+    margin-top: 16px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 24px;
+    padding-left: 0;
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .subscribe:hover,
+  .subscribe:focus {
+    cursor: pointer;
+    background-color: #404BBF;
+  }
+  .subscribe::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(50%);
+    right: 24px;
+    display: inline-block;
+    content: "";
+    width: 24px;
+    height: 20px;
+    background-image: url(../images/iconsend.svg);
+    
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 428px;
+    padding-left: 15px;
+    margin: 0 auto;
+    padding-right: 15px;
+  }
 }
 
 
@@ -856,6 +1008,148 @@ body {
       color: #4D5AE5;
       
     }
+    .footer {
+      background-color: #2e2f42;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .logo-footer {
+      text-decoration: none;
+      margin-bottom: 16px;
+    }
+    .footer a {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.16;
+      color: #f4f4fd;
+    }
+    .footer p {
+      width: 264px;
+      margin-top: 16px;
+    }
+    .text-footer {
+      text-align: left;
+      margin-left: 108px;
+    }
+    .social-media {
+      margin-left: 24px; 
+      margin-right: auto;
+    }
+    .form-filed input {
+      width: 280px;
+    }
+    .social-media h3{
+      text-align: left;
+      margin: 0;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+    .link-footer {
+      display: flex;
+    }
+    .footer-form h3 {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 16px;
+      color: #F4F4FD;
+    }
+    .footer-form {
+      margin-top: 72px;
+      margin-left: 108px;
+      margin-right: auto;
+      width: 453px;
+    }
+    .footer-form form {
+      width: 250px;
+    }
+    .footer-sub {
+      display: flex;
+      width: 453px;
+      
+    }
+    .form-filed {
+      position: relative;
+      width: 280px;
+      margin-right: 0;
+    }
+    .mail-form-footer {
+      width: 250px;
+      height: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      background-color: #2E2F42;
+      padding-left: 16px;
+    
+      color: #F4F4FD;
+    }
+    .mail-form-footer:focus + .label-footer,
+    .mail-form-footer:not(:placeholder-shown) + .label-footer {
+      left: -50px;
+    }
+    .label-footer {
+      position: absolute;
+      top: 0;
+      left: 16px;
+      color: rgba(255, 255, 255, 0.6);
+      transform: translateY(50%);
+      transition-property: left;
+      transition-duration: 250ms;
+      -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      
+    }
+    .subscribe {
+      position: relative;
+      width: 160px;
+      height: 40px;
+      background-color: var(--accent-color);
+      color: #fff;
+      font-family: 'Roboto';
+      border-radius: 4px;
+      margin-right: 0;
+      margin-left: 24px;
+      border: none;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 24px;
+      padding-left: 0;
+    
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+    
+      transition-property: background-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .subscribe:hover,
+    .subscribe:focus {
+      cursor: pointer;
+      background-color: #404BBF;
+    }
+    .subscribe::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translateY(50%);
+      right: 24px;
+      display: inline-block;
+      content: "";
+      width: 24px;
+      height: 20px;
+      background-image: url(../images/iconsend.svg);
+      
+    }
+    .container-footer {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 768px;
+      padding-left: 15px;
+      margin: 0 auto;
+      padding-right: 15px;
+    }
 }
 
 
@@ -1204,6 +1498,133 @@ body {
       border: 1px solid #4D5AE5;
       color: #4D5AE5;
       
+    }
+    .footer {
+      background-color: #2e2f42;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .logo-footer {
+      text-decoration: none;
+      margin-bottom: 16px;
+    }
+    .footer a {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.16;
+      color: #f4f4fd;
+    }
+    .footer p {
+      width: 264px;
+      margin-top: 16px;
+    }
+    .social-media {
+      margin-left: 120px; 
+    }
+    .social-media h3{
+      margin: 0;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+    .link-footer {
+      display: flex;
+    }
+    .footer-form h3 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      color: #F4F4FD;
+    }
+    .footer-form {
+    margin-left: 80px;
+    width: 453px;
+    }
+    .footer-form form {
+      width: 250px;
+    }
+    .footer-sub {
+      display: flex;
+      width: 453px;
+    }
+    .form-filed {
+      position: relative;
+      width: 250px;
+      margin-right: 0;
+    }
+    .mail-form-footer {
+      width: 250px;
+      height: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      background-color: #2E2F42;
+      padding-left: 16px;
+    
+      color: #F4F4FD;
+    }
+    .mail-form-footer:focus + .label-footer,
+    .mail-form-footer:not(:placeholder-shown) + .label-footer {
+      left: -50px;
+    }
+    .label-footer {
+      position: absolute;
+      top: 0;
+      left: 16px;
+      color: rgba(255, 255, 255, 0.6);
+      transform: translateY(50%);
+      transition-property: left;
+      transition-duration: 250ms;
+      -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      
+    }
+    .subscribe {
+      position: relative;
+      width: 160px;
+      height: 40px;
+      background-color: var(--accent-color);
+      color: #fff;
+      font-family: 'Roboto';
+      border-radius: 4px;
+      margin-right: 0;
+      margin-left: 24px;
+      border: none;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 24px;
+      padding-left: 0;
+    
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+    
+      transition-property: background-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .subscribe:hover,
+    .subscribe:focus {
+      cursor: pointer;
+      background-color: #404BBF;
+    }
+    .subscribe::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translateY(50%);
+      right: 24px;
+      display: inline-block;
+      content: "";
+      width: 24px;
+      height: 20px;
+      background-image: url(../images/iconsend.svg);
+      
+    }
+    .container-footer {
+      display: flex;
+      width: 1158px;
+      padding-left: 15px;
+      margin: 0 auto;
+      padding-right: 15px;
     }
 }
 .list {
@@ -1904,7 +2325,7 @@ background-color: #2196f3;
 } */
 
 
-.footer {
+/* .footer {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -2024,6 +2445,13 @@ width: 453px;
   background-image: url(../images/iconsend.svg);
   
 }
+.container-footer {
+  display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  margin: 0 auto;
+  padding-right: 15px;
+} */
 .radio-button {
   background-color: #f4f4fd;
   color: #4d5ae5;
@@ -2151,13 +2579,7 @@ width: 453px;
   margin: 0;
   margin-top: 8px;
 } */
-.container-footer {
-  display: flex;
-  width: 1158px;
-  padding-left: 15px;
-  margin: 0 auto;
-  padding-right: 15px;
-}
+
 .container-main {
   flex-wrap: wrap;
   width: 1158px;
