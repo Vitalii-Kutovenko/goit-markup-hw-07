@@ -244,6 +244,7 @@ body {
     text-align: center;
     padding-top: 0;
     padding-bottom: 96px;
+
   }
   .about li:not(:last-child) {
     margin-bottom: 72px;
@@ -312,6 +313,9 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .menu-fixed {
     display: none;
+  }
+  .container {
+    margin: 0;
   }
   .burger-btn {
     display: none;
@@ -440,16 +444,24 @@ body {
     }
     .about {
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       justify-content: center;
-      padding-top: 0;
+      padding: 0;
       padding-bottom: 96px;
+      padding-top: 96px;
     }
+   
     .about li {
-      width: 264px;
+      width: 354px;
+      height: 215px;
     }
+    
     .about li:not(:last-child) {
+      
       margin-bottom: 72px;
+    }
+    .about li:not(:nth-child(2n)) {
+      margin-right: 24px;
     }
     .about-item {
       display: flex;
@@ -460,7 +472,7 @@ body {
       display: block;
       content: "";
       height: 112px;
-      width: 372px;
+      width: 354px;
       background-color: #f4f4fd;
       margin-bottom: 8px;
       justify-content: center;
@@ -507,6 +519,7 @@ body {
       margin: 0;
     }
     .about-company {
+      padding-top: 96px;
       padding-bottom: 96px;
     }
 }
