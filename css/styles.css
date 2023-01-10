@@ -201,11 +201,23 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mobile2x.jpg);
+  }
+}
   .backdrop {
     z-index: 1;
   }
@@ -705,11 +717,23 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office.jpg);
+        url(../images/tablet.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
     }
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .overlay {
+          background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tablet2x.jpg);
+    }
+  }
     .backdrop {
       z-index: 1;
     }
@@ -1229,10 +1253,22 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
+        url(../images/desctop.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
     }
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .overlay {
+            background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/desctop2x.jpg);
+  }
+}
     .main h1 {
       font-weight: 600;
       font-size: 56px;
