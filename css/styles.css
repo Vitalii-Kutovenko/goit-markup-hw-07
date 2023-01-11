@@ -434,7 +434,7 @@ body {
   .customers {
     text-align: center;
     padding: 96px 0;
-    width: 100%;
+    width: 428px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -495,7 +495,7 @@ body {
     margin-right: auto;
   }
   .footer {
-    min-width: ;
+    min-width: 428px;
     display: flex;
     flex-direction: column;
     text-align: center;
